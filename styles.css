@@ -45,6 +45,10 @@ footer {
   border-top: 3px solid #74A217;
 }
 
+a:focus {
+  outline: 3px solid #74A217;
+}
+
 /* NAVIGATION */
 
 nav ul {
