@@ -116,7 +116,7 @@ section {
 }
 
 #orderedList ol {
-    list-style-type: none;
+    list-style-type: square;
 }
 
 #orderedList li {
