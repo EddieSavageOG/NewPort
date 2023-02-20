@@ -352,3 +352,7 @@ textarea {
   width: 20rem;
   height: 10rem;
 }
+
+ol li a, a:visited {
+  color:#74A217;
+}
