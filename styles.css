@@ -110,7 +110,7 @@ a:focus {
 /* MOBILE NAVIGATION */
 
 
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 401px) and (max-width: 850px) {
   .hamburger-nav {
     display: block;
   }
@@ -128,6 +128,29 @@ a:focus {
     padding: 2rem;
     width: 50%;
     position: absolute;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .hamburger-nav {
+    display:block;
+  }
+    #mobile-nav {
+      list-style-type: none;
+      padding: 0;
+      display: none;
+      background-color: #000;
+      border: 3px solid #74A217;
+      z-index: 2;
+      padding: 1rem;
+      width: 75%;
+      position: absolute;
+    }
   }
 }
 
@@ -169,6 +192,7 @@ a:focus {
 @media screen and (max-width: 400px) {
    .name {
     font-size: 2rem;
+    text-align: center;
    }
 }
  
