@@ -41,7 +41,7 @@ main {
 
 footer {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 6rem;
   border-top: 3px solid #74A217;
 }
 
@@ -51,21 +51,79 @@ a:focus {
 
 /* NAVIGATION */
 
-nav ul {
+.desktop-nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding: 0;
     
 }
 
-nav ul li {
+.desktop-nav ul li {
     display: inline-block;
     padding: 0 2%;
     text-transform:uppercase;
 }
 
-nav ul li a, a:visited {
+.desktop-nav ul li a, a:visited {
     color:#74A217;
+}
+
+.hamburger-nav {
+  display: none;
+}
+/* DESKTOP NAVIGATION */
+
+@media screen and (min-width: 851px) {
+  .desktop-nav {
+    display: block;
+  }
+
+  .hamburger-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.desktop-nav li {
+    display: inline-block;
+    padding: 0 2%;
+    text-transform:uppercase;
+}
+
+.desktop-nav li a, a:visited {
+    color:#74A217;
+}
+}
+
+/* MOBILE NAVIGATION */
+
+
+@media screen and (max-width: 850px) {
+  .hamburger-nav {
+    display: block;
+  }
+  .desktop-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+    background-color: #000;
+    border: 3px solid #74A217;
+    z-index: 2;
+    padding: 2rem;
+    width: 50%;
+    position: absolute;
+  }
 }
 
 /* HOMEPAGE */
@@ -86,7 +144,7 @@ nav ul li a, a:visited {
     height: 20rem;
     /* background-color: blue;
     border: 3px solid purple; */
-    background-image: url('./Images/harrison-broadbent.jpg');
+    background-image: url('./assets/images/harrison-broadbent.jpg');
     background-size: cover;
     margin-top: -7rem;
 }
@@ -127,6 +185,10 @@ section {
     padding-top: 1rem;
 }
 
+.github {
+  max-height: 4rem;
+  padding: 0 50%;
+}
 
 
 /* CAROUSEL STARTS HERE */
@@ -178,54 +240,54 @@ section {
   }
 
   .slide-1 {
-    background-image: url('./Images/Augur-Azure.png');
+    background-image: url('./assets/images/Augur-Azure.png');
     background-size: contain;
   }
 
   .slide-2 {
-    background-image: url('./Images/CareGiversHeart.PNG');
+    background-image: url('./assets/images/CareGiversHeart.PNG');
     background-size: contain;
   }
 
   .slide-3 {
-    background-image: url('./Images/Bang-Seafood.png');
+    background-image: url('./assets/images/Bang-Seafood.png');
     background-size: contain;
   }
 
   .slide-4 {
-    background-image: url('./Images/MY-APP-STAT.PNG');
+    background-image: url('./assets/images/MY-APP-STAT.PNG');
     background-size: contain;
   }
 
   .slide-5 {
-    background-image: url('./Images/Padgetts.PNG');
+    background-image: url('./assets/images/Padgetts.PNG');
     background-size: contain;
   }
 
   /* SECOND SLIDER */
 
   .slide-6 {
-    background-image: url('./Images/g2-calc.png');
+    background-image: url('./assets/images/g2-calc.png');
     background-size: contain;
   }
 
   .slide-7 {
-    background-image: url('./Images/NASA-api.png');
+    background-image: url('./assets/images/NASA-api.png');
     background-size: contain;
   }
 
   .slide-8 {
-    background-image: url('./Images/Countdown.png');
+    background-image: url('./assets/images/Countdown.png');
     background-size: contain;
   }
 
   .slide-9 {
-    background-image: url('./Images/MY-APP-STAT.PNG');
+    background-image: url('./assets/images/MY-APP-STAT.PNG');
     background-size: contain;
   }
 
   .slide-10 {
-    background-image: url('./Images/Padgetts.PNG');
+    background-image: url('./assets/images/Padgetts.PNG');
     background-size: contain;
   }
 
@@ -338,7 +400,7 @@ section {
 
 #contact-form {
   width: 35%;
-  margin: 0 32%;
+  margin: 0 auto;
   padding:2rem;
   border: 2px dotted #74A217;
 }
