@@ -41,8 +41,13 @@ main {
 
 footer {
   text-align: center;
-  /* margin-top: 6rem; */
   border-top: 3px solid #74A217;
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+   margin-top: 2rem;
+  }
 }
 
 a:focus {
@@ -155,10 +160,16 @@ a:focus {
     font-size: 150%;
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (min-width: 401px) and (max-width: 925px) {
   #hero {
     margin-top: -16rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+   .name {
+    font-size: 2rem;
+   }
 }
  
 
@@ -172,6 +183,12 @@ section {
     font-size: 1.5rem;
     color: #74A217;
     width: 50%;
+}
+
+@media screen and (max-width: 400px) {
+  .leftie {
+   width: 100%;
+  }
 }
 
 #orderedList {
@@ -189,6 +206,12 @@ section {
 
 #orderedList li {
     padding-top: 1rem;
+}
+@media screen and (max-width: 400px) {
+  #orderedList {
+   width: 100%;
+   margin: -25px;
+  }
 }
 
 .github {
@@ -397,6 +420,46 @@ section {
   object-fit: contain;
 }
 
+@media screen and (max-width: 400px) {
+  #selfie {
+   display:  none;
+  }
+
+  #intro {
+    display: block;
+    width: 100%;
+    flex-direction:initial;
+    margin: 0 auto;
+  }
+
+  .about-main {
+    margin: 0 10%;
+
+  }
+
+  #intro-words {
+    margin: 0;
+  }
+
+  #intro-words h1 {
+    font-size: 2rem;
+  }
+
+  #intro-words .github {
+    padding: 0 35%;
+  }
+
+  .about-main h1 {
+    font-size: 2rem;
+  }
+
+  .about-p {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
+
 .tech img{
   height: 60px;
   width: 60px;
@@ -443,4 +506,20 @@ ol li a, a:visited {
 .contact-content p {
   display: flex;
   justify-content: center;;
+}
+
+@media screen and (max-width: 400px) {
+  input {
+    width: 15rem;
+  }
+
+  textarea {
+    width: 15rem;
+  }
+
+  #contact-form {
+    width: 17rem;
+    padding: 1rem;
+  }
+
 }
