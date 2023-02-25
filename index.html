@@ -79,40 +79,86 @@ TODO: More interest in footers?
       <li>I believe code/computers should make our lives easier - easy for business, easy for consumers.</li>
     </ol>
   </section>
+
   <section id="port1"class="carousel">
     <h2>Website Portfolio</h2>
-    <div class="slides">
-      <div class="slides-item slide-1" id="slide-1"><span class="goButton"><a href = "https://angry-sinoussi-7ea391.netlify.app/" target="blank">GO</a></span></div>
-      <div class="slides-item slide-2" id="slide-2"><span class="goButton"><a href = "https://www.thecaregiversheart.com/" target="blank">GO</a></span></div>
-      <div class="slides-item slide-3" id="slide-3"><span class="goButton"><a href = "https://brave-hawking-735dda.netlify.app/" target="blank">GO</a></span></div>
-      <div class="slides-item slide-4" id="slide-4"><span class="goButton"><a href = "http://www.myappstat.com//" target="blank">GO</a></span></div>
-      <div class="slides-item slide-5" id="slide-5"><span class="goButton"><a href = "https://www.richardpadgett.co.uk/" target="blank">GO</a></span></div>
-    </div>
-    <div class="carousel__nav">
-      <a class="slider-nav" href="#slide-1">1</a>
-      <a class="slider-nav" href="#slide-2">2</a>
-      <a class="slider-nav" href="#slide-3">3</a>
-      <a class="slider-nav" href="#slide-4">4</a>
-      <a class="slider-nav" href="#slide-5">5</a>
-    </div>
-  </section>
-  <section id="port2"class="carousel">
+      <!-- Website Portfolio Carousel -->
+      <div class="carousel">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="./assets/images/Augur-Azure2.jpg" style="width:100%">
+        <div class="slide-text"><a href="https://angry-sinoussi-7ea391.netlify.app/">Augur Azure</a></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/images/Bang-Seafood.png" style="width:100%">
+        <div class="slide-text"><a href="https://brave-hawking-735dda.netlify.app/">Bang Seafood</a></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/images/CareGiversHeart.PNG" style="width:100%">
+        <div class="slide-text"><a href="https://www.thecaregiversheart.com/">The Caregiver's Heart</a></div>
+      </div>
+
+      <div class="mySlides fade">
+            <img src="./assets/images/Padgetts.PNG" style="width:100%">
+            <div class="slide-text"><a href="https://www.richardpadgett.co.uk/">Padgett's Estate Agent</a></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/images/MY-APP-STAT.PNG" style="width:100%">
+        <div class="slide-text"><a href="http://www.myappstat.com/">MY-APP-STAT</a></div>
+      </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div> 
+
+<!-- JavaScript and Python Portfolio -->
     <h2>JavaScript and Python Portfolio</h2>
-    <div class="slides">
-      <div class="slides-item slide-6" id="slide-6"><span class="goButton"><a href = "https://htmlpreview.github.io/?https://github.com/EddieSavageOG/workTrafficCalculator/blob/main/calc2.html" target="blank">GO</a></span></div>
-      <div class="slides-item slide-7" id="slide-7"><span class="goButton"><a href = "https://htmlpreview.github.io/?https://github.com/EddieSavageOG/NASAPictures/blob/main/index.html" target="blank">GO</a></span></div>
-      <div class="slides-item slide-8" id="slide-8"><span class="goButton"><a href = "https://www.charleneslimp.com/Halloween/CountDownTimer.html" target="blank">GO</a></span></div>
-      {/* <div class="slides-item slide-9" id="slide-9"></div>
-      <div class="slides-item slide-10" id="slide-10"></div> */}
+    <div class="carousel">
+  <!-- Full-width images with number and caption text -->
+    <div class="mySlides2 fade">
+      <img src="./assets/images/Countdown.png" style="width:100%">
+      <div class="slide-text"><a href="https://www.charleneslimp.com/Halloween/CountDownTimer.html">Countdown to Halloween</a></div>
     </div>
-    <div class="carousel__nav">
-      <a class="slider-nav" href="#slide-6">1</a>
-      <a class="slider-nav" href="#slide-7">2</a>
-      <a class="slider-nav" href="#slide-8">3</a>
-      <!-- <a class="slider-nav" href="#slide-9">4</a>
-      <a class="slider-nav" href="#slide-10">5</a> -->
+
+    <div class="mySlides2 fade">
+      <img src="./assets/images/g2-calc.png" style="width:100%">
+      <div class="slide-text"><a href="https://htmlpreview.github.io/?https://github.com/EddieSavageOG/workTrafficCalculator/blob/main/calc2.html">Leads Calculator</a></div>
     </div>
+
+    <div class="mySlides2 fade">
+      <img src="./assets/images/NASA-api.png" style="width:100%">
+      <div class="slide-text"><a href="https://htmlpreview.github.io/?https://github.com/EddieSavageOG/NASAPictures/blob/main/index.html">NASA Photo Selector</a></div>
+    </div>
+
+  <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+    </div>
+    <br>
+
+<!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot2" onclick="currentSlide2(1)"></span>
+      <span class="dot2" onclick="currentSlide2(2)"></span>
+      <span class="dot2" onclick="currentSlide2(3)"></span>
+    </div> 
   </section>
+
+  
   <h2 class="leftie">Decades of experience, always learning new things, can't stop, won't stop.</h2>
   <section id="orderedList">
     <ol>
@@ -129,6 +175,7 @@ TODO: More interest in footers?
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="slider.js"></script>
 
 </body>
 </html>
