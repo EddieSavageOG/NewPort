@@ -245,15 +245,9 @@ section {
 
 
 /* CAROUSEL STARTS HERE */
-* {box-sizing:border-box}
-body {
-      font-size: 18px;
-      background-color: black;
-      color: green;
-}
 
 a a:visited a:hover {
-      color: green;
+      color: #74A217;
 }
 /* Slideshow container */
 .carousel{
@@ -283,7 +277,7 @@ a a:visited a:hover {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #E3FFEC;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -304,7 +298,7 @@ a a:visited a:hover {
 
 /* Caption text */
 .slide-text {
-  color: green;
+  color: #74A217;
   font-size: 1rem;
   padding: 8px 12px;
   position: absolute;
@@ -314,7 +308,7 @@ a a:visited a:hover {
 }
 
 .slide-text a, .slide-text a:visited, .slide-text a:hover {
-      color: green;
+      color: #74A217;
 }
 
 /* The dots/bullets/indicators */
@@ -323,7 +317,7 @@ a a:visited a:hover {
   height: 15px;
   width: 15px;
   margin: 5rem 2px 0 2px;
-  background-color: #bbb;
+  background-color: #E3FFEC;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -334,7 +328,7 @@ a a:visited a:hover {
   height: 15px;
   width: 15px;
   margin: 5rem 2px 0 2px;
-  background-color: #bbb;
+  background-color: #E3FFEC;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
