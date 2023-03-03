@@ -410,9 +410,12 @@ a a:visited a:hover {
   }
 
 #selfie {
-  max-width: 50%;
-  height: auto;
+  width: 100%;
   object-fit: contain;
+}
+
+#portrait {
+  width: 100%;
 }
 
 @media screen and (max-width: 400px) {
