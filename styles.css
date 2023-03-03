@@ -269,9 +269,18 @@ a a:visited a:hover {
   display: none;
 }
 
+.mySlides img {
+  width: 100%;
+}
+
 .mySlides2 {
-      display: none;
+  display: none;
     }
+
+.mySlides2 img {
+  width: 100%;
+    }
+
 
 /* Next & previous buttons */
 .prev, .next {
