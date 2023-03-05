@@ -36,7 +36,8 @@ TODO: More interest in footers?
       <!-- Website Portfolio Carousel -->
       <div class="carousel">
       <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade" alt="Screenshot of front page for Augur Azure website">
+      <div class="mySlides fade">
+        <img src = "./assets/images/Augur-Azure2.jpg" alt = "Screenshot of front page for Augur Azure website">
         <div class="slide-text"><a href="https://angry-sinoussi-7ea391.netlify.app/">Augur Azure</a></div>
       </div>
 
