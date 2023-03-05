@@ -75,10 +75,10 @@ TODO: More interest in footers?
       <span class="dot" onclick="currentSlide(4)"></span>
       <span class="dot" onclick="currentSlide(5)"></span>
     </div> 
-
+  </section>
 <!-- JavaScript and Python Portfolio -->
+<section id="port2"class="carousel">
     <h2>JavaScript and Python Portfolio</h2>
-    <div class="carousel">
   <!-- Full-width images with number and caption text -->
     <div class="mySlides2 fade">
       <img src="./assets/images/Countdown.png" alt="Screenshot of Countdown to Halloween">

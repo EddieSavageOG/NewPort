@@ -28,22 +28,22 @@
 <header>
   <nav>
     <ul class = "desktop-nav">
-      <li><a href = "index.html">Home</a></li>
+      <li><a href = "index.php">Home</a></li>
       <!-- <li><a href = "./blogdex">Blog</a></li> -->
-      <li><a href = "index.html#port1">Website Portoflio</a></li>
-      <li><a href = "index.html#port2">JavaScript and Python Portfolio</a></li>
-      <li><a href = "about.html">About</a></li>
-      <li><a href = "contact.html">Contact</a></li>
+      <li><a href = "index.php#port1">Website Portoflio</a></li>
+      <li><a href = "index.php#port2">JavaScript and Python Portfolio</a></li>
+      <li><a href = "about.php">About</a></li>
+      <li><a href = "contact-page.php">Contact</a></li>
     </ul>
     <div class = "hamburger-nav">
       <a href = "javascript:void(0);" class="hamburger" onClick="unhide()"><img src = "assets/images/hamburger.png" alt="access mobile menu"></a>
       <ul id="mobile-nav">
-        <li><a href = "index.html">Home</a></li>
+        <li><a href = "index.php">Home</a></li>
         <!-- <li><a href = "./blogdex">Blog</a></li> -->
-        <li><a href = "index.html#port1">Website Portoflio</a></li>
-        <li><a href = "index.html#port2">JavaScript and Python Portfolio</a></li>
-        <li><a href = "about.html">About</a></li>
-        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "index.php#port1">Website Portoflio</a></li>
+        <li><a href = "index.php#port2">JavaScript and Python Portfolio</a></li>
+        <li><a href = "about.php">About</a></li>
+        <li><a href = "contact-page.php">Contact</a></li>
       </ul>
 
 
